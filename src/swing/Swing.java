@@ -78,6 +78,9 @@ public class Swing {
         frame.add(redPanel);
         frame.add(bluePanel);
         frame.add(greenPanel);*/
+        //BUTTON
+        //----------------------------------------------------------------------
+        new MyFrame();
 
     }
 
