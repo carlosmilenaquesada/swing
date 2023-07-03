@@ -29,7 +29,7 @@ public class MyFrame extends JFrame implements ActionListener {
     }*/
     //BUTTON
     //----------------------------------------------------------------------
-    JButton button;
+    /*JButton button;
     JLabel label;
 
     public MyFrame() {
@@ -63,14 +63,16 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(button);
         this.add(label);
     }
-
+*/
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == button) {
+        /*if (e.getSource() == button) {
             //System.out.println("poo");
             //button.setEnabled(false);
             label.setVisible(true);
-        }
+        }*/
     }
+    
+
 
 }
