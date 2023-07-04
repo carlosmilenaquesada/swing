@@ -3,9 +3,11 @@ package swing;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -81,7 +83,7 @@ public class Swing {
         frame.add(greenPanel);*/
         //BUTTON
         //----------------------------------------------------------------------
-
+        /*
         //BORDERLAYOUT ->  A BorderLayout places components in five areas: NORTH, SOUTH, WEST, EAST, CENTER
         //                 All extra space is placed in the center area.
         //----------------------------------------------------------------------
@@ -146,10 +148,31 @@ public class Swing {
         frame.add(panel3,BorderLayout.EAST);
         frame.add(panel4,BorderLayout.SOUTH);
         frame.add(panel5,BorderLayout.CENTER);
+        */
+        //FLOWLAYOUT
+        //----------------------------------------------------------------------
+        /*JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(500,500);
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
         
+        JPanel panel = new JPanel();
+        panel.setPreferredSize(new Dimension(250,250));
+        panel.setBackground(Color.lightGray);
+        panel.setLayout(new FlowLayout());
         
+        panel.add(new JButton("1"));
+        panel.add(new JButton("2"));
+        panel.add(new JButton("3"));
+        panel.add(new JButton("4"));
+        panel.add(new JButton("5"));
+        panel.add(new JButton("6"));
+        panel.add(new JButton("7"));
+        panel.add(new JButton("8"));
+        panel.add(new JButton("9"));
         
-        
+        frame.add(panel);
+        frame.setVisible(true);*/
         
         
     }
